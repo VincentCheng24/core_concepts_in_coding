@@ -30,8 +30,8 @@ class Solution():
 
     def bubble_sort(self, a):
         n = len(a)
+        orderred = True
         for i in range(n):
-            orderred = True
 
             for j in range(n-i-1):
                 if a[j] > a[j+1]:
